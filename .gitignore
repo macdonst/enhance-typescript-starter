@@ -1,0 +1,2 @@
+node_modules/
+# app/**/*.mjs # You should exclude artifacts from source control

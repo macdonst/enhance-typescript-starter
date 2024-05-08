@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "conc \"tsc -w\" \"arc sandbox\""
+  },
+  "dependencies": {
+    "@architect/architect": "^11.0.12",
+    "@enhance/arc-plugin-enhance": "^11.0.1"
+  },
+  "devDependencies": {
+    "@enhance/types": "^0.7.0",
+    "concurrently": "^8.2.2",
+    "typescript": "^5.4.5"
+  }
+}
