@@ -1,2 +1,9 @@
+# .gitignore for this template project
+# template.gitignore should be used by generated projects
 node_modules/
-# app/**/*.mjs # You should exclude artifacts from source control
+manifest.json
+package-lock.json
+.DS_Store
+.enhance/
+public/static.json
+app/
