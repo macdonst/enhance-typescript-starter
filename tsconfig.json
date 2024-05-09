@@ -6,7 +6,7 @@
     "rootDir": "ts"
   },
   "include": [
-    "ts/**/*.mts"
+    "ts/**/*"
   ],
   "exclude": [
     "node_modules"
