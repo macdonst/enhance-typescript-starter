@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "start": "conc \"tsc -w\" \"enhance dev\"",
-    "dev": "npm start",
+    "start": "npx enhance dev",
+    "dev": "npx enhance dev",
     "build": "tsc",
     "deploy": "npm run build && begin deploy -e staging"
   },
@@ -14,7 +14,6 @@
     "@begin/deploy": "^0.22.3",
     "@enhance/cli": "^1.2.0",
     "@enhance/types": "^0.7.0",
-    "concurrently": "^8.2.2",
     "typescript": "^5.4.5"
   }
 }
