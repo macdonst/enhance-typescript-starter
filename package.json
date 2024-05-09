@@ -1,16 +1,18 @@
 {
   "scripts": {
-    "start": "conc \"tsc -w\" \"arc sandbox\"",
+    "start": "conc \"tsc -w\" \"enhance dev\"",
     "dev": "npm start",
     "build": "tsc",
     "deploy": "npm run build && begin deploy -e staging"
   },
   "dependencies": {
-    "@architect/architect": "^11.0.12",
-    "@enhance/arc-plugin-enhance": "^11.0.1"
+    "@enhance/arc-plugin-enhance": "^11.0.1",
+    "@enhance/arc-plugin-styles": "^5.0.6",
+    "@enhance/styles-cribsheet": "^0.0.11"
   },
   "devDependencies": {
     "@begin/deploy": "^0.22.3",
+    "@enhance/cli": "^1.2.0",
     "@enhance/types": "^0.7.0",
     "concurrently": "^8.2.2",
     "typescript": "^5.4.5"
