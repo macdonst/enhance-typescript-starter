@@ -3,7 +3,9 @@
     "start": "enhance dev",
     "dev": "enhance dev",
     "build": "tsc",
-    "deploy": "npm run build && begin deploy -e staging"
+    "deploy": "npm run build && begin deploy -e staging",
+    "enhance": "enhance",
+    "test": "echo \"Warning: no test specified\" && exit 0"
   },
   "dependencies": {
     "@enhance/arc-plugin-enhance": "^11.0.1",
