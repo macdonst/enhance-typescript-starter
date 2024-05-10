@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "start": "npx enhance dev",
-    "dev": "npx enhance dev",
+    "start": "enhance dev",
+    "dev": "enhance dev",
     "build": "tsc",
     "deploy": "npm run build && begin deploy -e staging"
   },
